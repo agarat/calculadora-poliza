@@ -1,0 +1,11 @@
+{
+    "name": "calculadora-poliza",
+    "version": "1.0.0",
+    "description": "Calculadora de poliza de seguro en base a empleados de una empresa",
+    "author": "Arnaldo Garat",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "serverless": "^1.67.0"
+    }
+}

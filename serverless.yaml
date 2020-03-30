@@ -1,0 +1,15 @@
+service: calculadora-poliza
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  calculatePolicy:
+    handler: handler.endpoint
+    events:
+      - http:
+          path: /
+          method: get
