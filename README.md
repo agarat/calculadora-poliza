@@ -16,12 +16,12 @@ serverless invoke local --function calculatePolicy
 
 Para correr el proyecto con docker, ejecutar los siguientes comandos:
 ```bash
-cd dockerized
+cd docker
 make build
 make start
 ```
 
-El contenedor disponibiliza el servicio en [localhost:8080/](localhost:8080/).
+El contenedor disponibiliza el servicio en `localhost:8080/`
 
 ### Output
 
